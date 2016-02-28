@@ -7,6 +7,6 @@ $().ready(function() {
     if (window.count > 20) {
       window.count = 1;
     }
-    return window.history.replaceState('', '', '/' + Array(window.count + 1).join('ε=') + '┏(ﾟロﾟ;)┛');
+    return window.history.replaceState('', '', '?' + Array(window.count + 1).join('ε=') + '┏(ﾟロﾟ;)┛');
   }, 50);
 });
